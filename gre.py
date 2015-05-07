@@ -14,5 +14,6 @@ for words in content.findAll('span', attrs={'class':'qWord'}):
 for word_meanings in content.findAll('span', attrs={'class':'qDef'}):
 	meaning.append(word_meanings.text.encode("utf-8"))
 
-rest_command = """'display notification "{}" with title "{}"'""".format(meaning[randint(0,737)],word[(randint(0,737))])
+index = randint(0,737)
+rest_command = """'display notification "{}" with title "{}" sound name "Glass.aiff"'""".format(meaning[index],word[index])
 os.system("osascript -e "+ rest_command)
