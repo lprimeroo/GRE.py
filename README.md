@@ -5,21 +5,13 @@ meanings scraped from Kaplan's 900 most common GRE vocabulary website.
 
 ##Installation
 
-###Manually Running Script :
 ```
 git clone https://github.com/saru95/GRE.py
 cd GRE.py
-python gre.py
+chmod +x install.sh
+./install.sh
 ```
-###Automating Script every time your Mac Starts :
-```
-git clone https://github.com/saru95/GRE.py
-cd GRE.py
-mv gre.py /Users/username/
-sudo mv com.username.gre.plist /Library/LaunchAgents
-```
+###Important note :
+####Before executing `install.sh`, change all the `username` in `com.username.gre.plist` file to you Mac's username . Do the same for the file name , i.e, change `com.username.gre.plist` to `com.your_username.gre.plist` and all the username inside this file .
 
-###Further Installation Notes:
-1. In `com.username.gre.plist` file, change `username` with your Mac's username including the file name.
-2. Value under `StartInterval` is the time interval in seconds after which the script should automatically execute.
-    Change it according to your prefence .
+
