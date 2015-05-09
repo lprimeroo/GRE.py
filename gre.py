@@ -21,4 +21,4 @@ while(True):
 	index = randint(0,737)
 	rest_command = """'display notification "{}" with title "{}" sound name "Glass.aiff"'""".format(meaning[index],word[index])
 	os.system("osascript -e "+ rest_command)
-	time.sleep(60)
+	time.sleep(2700)
