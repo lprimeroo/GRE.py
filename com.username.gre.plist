@@ -6,11 +6,11 @@
   <string>com.username.gre</string>
 
   <key>Program</key>
-  <string>/Users/username/scriptlocation/gre.sh</string>
+  <string>/Users/username/gre.py</string>
 
 
   <key>StartInterval</key>
-  <integer>60</integer>
+  <integer>30</integer>
 
   <key>RunAtLoad</key>
   <true/>
