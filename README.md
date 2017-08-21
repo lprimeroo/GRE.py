@@ -1,11 +1,11 @@
-#GRE.py
+# GRE.py
 
-A Python script that sends OSX notifications at regular intervals . Notifications include words and their
+A Python script that sends OSX notifications at regular intervals. Notifications include words and their
 meanings scraped from Kaplan's 900 most common GRE vocabulary website.
 
 
 
-##Installation
+## Installation
 
 ```
 # git clone https://github.com/saru95/GRE.py
@@ -15,7 +15,7 @@ meanings scraped from Kaplan's 900 most common GRE vocabulary website.
 # ./install.sh
 ```
 
-Now, you're good to go with a new word popping up in your notifications every 45 minutes . Time interval can be modified in`gre.py` file .
+Now, you're good to go with a new word popping up in your notifications every 45 minutes. Time interval can be modified in the `gre.py` file .
 
 
 
